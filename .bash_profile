@@ -1,6 +1,6 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
-export HISTSIZE=-1 
+#export HISTSIZE=-1 
 export HISTFILESIZE=-1
 
 # Load the shell dotfiles, and then some:
