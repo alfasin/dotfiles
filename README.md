@@ -1,4 +1,4 @@
-# JeeZ's dotfiles
+# alfasin dotfiles
 
 ## Installation
 
@@ -7,7 +7,7 @@
 You can clone the repository wherever you want. (I like to keep it in `~/Projects/dotfiles`, with `~/dotfiles` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
 
 ```bash
-git clone https://github.com/jsjeannotte/dotfiles.git && cd dotfiles && source bootstrap.sh
+git clone https://github.com/alfasin/dotfiles.git && cd dotfiles && source bootstrap.sh
 ```
 
 To update, `cd` into your local `dotfiles` repository and then:
@@ -27,7 +27,7 @@ set -- -f; source bootstrap.sh
 To install these dotfiles without Git:
 
 ```bash
-cd; curl -#L https://github.com/jsjeannotte/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh}
+cd; curl -#L https://github.com/alfasin/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh}
 ```
 
 To update later on, just run that command again.
@@ -60,7 +60,7 @@ GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
 
-You could also use `~/.extra.sh` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/jsjeannotte/dotfiles/fork_select) instead, though.
+You could also use `~/.extra.sh` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/alfasin/dotfiles/fork_select) instead, though.
 
 ### Sensible OS X defaults
 
@@ -95,13 +95,13 @@ Then to install the Homebrew formulae:
 ## Feedback
 
 Suggestions/improvements
-[welcome](https://github.com/jsjeannotte/dotfiles/issues)!
+[welcome](https://github.com/alfasin/dotfiles/issues)!
 
 ## Me
 
-| ![Instagram Profile Picture](http://images.ak.instagram.com/profiles/profile_358654755_75sq_1366603600.jpg) |
 |---|
-| [ca.linkedin.com/in/jsjeannotte](ca.linkedin.com/in/jsjeannotte) |
+| [Linkedin](ca.linkedin.com/in/alfasin) |
+| [Twitter](twitter.com/niralfasi) |
 
 
 ## Original Author
@@ -126,4 +126,4 @@ Suggestions/improvements
 * [Sindre Sorhus](http://sindresorhus.com/)
 * [Tom Ryder](http://blog.sanctum.geek.nz/) and his [dotfiles repository](https://github.com/tejr/dotfiles)
 
-* anyone who [made a helpful suggestion](https://github.com/jsjeannotte/dotfiles/issues)
+* anyone who [made a helpful suggestion](https://github.com/alfasin/dotfiles/issues)
