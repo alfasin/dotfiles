@@ -98,9 +98,9 @@ Suggestions/improvements
 
 ## Me
 
-| [Linkedin](ca.linkedin.com/in/alfasin) |
-|---|
 | [![twitter/niralfasi](https://s.gravatar.com/avatar/6dd60e8de7b606e5e39919e5869eff6e?s=80)](http://twitter.com/niralfasi "Follow @niralfasi on Twitter") |
+|---|
+| [Linkedin](ca.linkedin.com/in/alfasin) |
 
 
 ## Original Author
